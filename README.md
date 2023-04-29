@@ -1,10 +1,8 @@
 # CD-NODEs
 
-!Keep updating!
-
-
-
 This is the official code for '**Constrained Dynamical Neural ODE For Time Series Modelling: A Case Study on Continuous Emotion Prediction**'accepted by ICASSP 2023. 
+
+!Keep updating!
 
 
 
