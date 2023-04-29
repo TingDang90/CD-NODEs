@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6b21a0a-c345-426b-a2ed-d58616bec7e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/examples/CDNODE_gadi_pri_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../latent_ode-master/latentODE_emo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../latent_ode-master/run_transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/torchdiffeq/_impl/dopri5.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/torchdiffeq/_impl/dopri5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/CD-NODEs.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/CD-NODEs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/CD-NODEs_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/CD-NODEs_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torchdiffeq.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/torchdiffeq.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torchdiffeq.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/torchdiffeq.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torchdiffeq/_impl/dopri5.py" beforeDir="false" afterPath="$PROJECT_DIR$/torchdiffeq/_impl/dopri5.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$LSTM_ODE_dataloader_cp.coverage" NAME="LSTM_ODE_dataloader_cp Coverage Results" MODIFIED="1581407300467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$odenet_mnist.coverage" NAME="odenet_mnist Coverage Results" MODIFIED="1585220154864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$dopri5.coverage" NAME="dopri5 Coverage Results" MODIFIED="1581674690647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/torchdiffeq/_impl" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$latent_ode.coverage" NAME="latent_ode Coverage Results" MODIFIED="1583466484249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_ode_sewa_prior.coverage" NAME="recola_ode_sewa_prior Coverage Results" MODIFIED="1585136587062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_boaw.coverage" NAME="recola_boaw Coverage Results" MODIFIED="1583293342293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$test_td.coverage" NAME="test_td Coverage Results" MODIFIED="1585712160885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$weightcheck.coverage" NAME="weightcheck Coverage Results" MODIFIED="1585209263227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/modelcheck" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_ode_sewa.coverage" NAME="recola_ode_sewa Coverage Results" MODIFIED="1585136171505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$toydata_ode.coverage" NAME="toydata_ode Coverage Results" MODIFIED="1583466826077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1aTn3pWCTanv5FalcsRTRT6rN0Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "com.google.cloudcode.ide_session_index": "20230319_0003",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples" />
+      <recent name="$PROJECT_DIR$/torchdiffeq/_impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.CD-NODEs">
+    <configuration name="CD-NODEs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CD-NODEs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../latentode/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/CD-NODEs.py" />
+      <option name="PARAMETERS" value="--nepochs 60 --lr 0.01 --lr_decay 0.95 --PATIENCE 10 --latent_dim 64 --nhidden 64 --seq 100" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CD-NODEs_initial_true_good_no_seed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CD-NODEs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniforge3/envs/ODEall/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/CD-NODEs_initial_true_good_no_seed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CDNODE_gadi_pri" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CD-NODEs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniforge3/envs/ODEall/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/CDNODE_gadi_pri.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CDNODE_gadi_pri_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CD-NODEs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniforge3/envs/ODEall/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/CDNODE_gadi_pri_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IJCAIplot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CD-NODEs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/miniforge3/envs/ODEall/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../wrttenpaper/Trans2021/IJCAI" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../wrttenpaper/Trans2021/IJCAI/IJCAIplot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LSTM_normal_nolap_boaw" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="torchdiffeq-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../ODE1cond/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/LSTM_normal_nolap_boaw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="torchdiffeq-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cd-nodes-lotka-volterra-constrained" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="torchdiffeq-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/cd-nodes-lotka-volterra-constrained.py" />
+      <option name="PARAMETERS" value="--scales &quot;0,1,9&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.LSTM_normal_nolap_boaw" />
+      <item itemvalue="Python.cd-nodes-lotka-volterra-constrained" />
+      <item itemvalue="Python.IJCAIplot" />
+      <item itemvalue="Python.CD-NODEs" />
+      <item itemvalue="Python.CD-NODEs_initial_true_good_no_seed" />
+      <item itemvalue="Python.CDNODE_gadi_pri" />
+      <item itemvalue="Python.CDNODE_gadi_pri_test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.CD-NODEs" />
+        <item itemvalue="Python.IJCAIplot" />
+        <item itemvalue="Python.CDNODE_gadi_pri_test" />
+        <item itemvalue="Python.CDNODE_gadi_pri" />
+        <item itemvalue="Python.CD-NODEs_initial_true_good_no_seed" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6b21a0a-c345-426b-a2ed-d58616bec7e2" name="Default Changelist" comment="" />
+      <created>1581391958832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581391958832</updated>
+      <workItem from="1581391961463" duration="42286000" />
+      <workItem from="1581585323004" duration="6274000" />
+      <workItem from="1581650944325" duration="6567000" />
+      <workItem from="1581667941145" duration="7695000" />
+      <workItem from="1581678190834" duration="3218000" />
+      <workItem from="1581682037326" duration="1487000" />
+      <workItem from="1581922764668" duration="1736000" />
+      <workItem from="1581924868850" duration="840000" />
+      <workItem from="1581925761326" duration="10008000" />
+      <workItem from="1581938776334" duration="4390000" />
+      <workItem from="1581999834213" duration="8898000" />
+      <workItem from="1582183937434" duration="7794000" />
+      <workItem from="1582201432527" duration="839000" />
+      <workItem from="1582202957347" duration="639000" />
+      <workItem from="1582513901931" duration="208000" />
+      <workItem from="1582517217071" duration="5066000" />
+      <workItem from="1582532010986" duration="15438000" />
+      <workItem from="1582597775590" duration="7197000" />
+      <workItem from="1582612119330" duration="2053000" />
+      <workItem from="1582616697427" duration="3713000" />
+      <workItem from="1582704599316" duration="6683000" />
+      <workItem from="1582769086036" duration="923000" />
+      <workItem from="1582777866911" duration="823000" />
+      <workItem from="1582798390305" duration="1508000" />
+      <workItem from="1582854332317" duration="1582000" />
+      <workItem from="1583292526209" duration="9351000" />
+      <workItem from="1583307063575" duration="808000" />
+      <workItem from="1583309050600" duration="101000" />
+      <workItem from="1583309474698" duration="259000" />
+      <workItem from="1583379927188" duration="1293000" />
+      <workItem from="1583406822434" duration="1151000" />
+      <workItem from="1583465897453" duration="1288000" />
+      <workItem from="1583485497731" duration="643000" />
+      <workItem from="1583497433262" duration="2137000" />
+      <workItem from="1583749775215" duration="59000" />
+      <workItem from="1583823477404" duration="539000" />
+      <workItem from="1583918593695" duration="6696000" />
+      <workItem from="1584070992167" duration="1129000" />
+      <workItem from="1584426192814" duration="3857000" />
+      <workItem from="1584601801717" duration="825000" />
+      <workItem from="1584709632509" duration="161000" />
+      <workItem from="1584709802451" duration="3467000" />
+      <workItem from="1584937063697" duration="3043000" />
+      <workItem from="1584946869958" duration="399000" />
+      <workItem from="1584949214238" duration="1431000" />
+      <workItem from="1585046792305" duration="1028000" />
+      <workItem from="1585108628171" duration="19059000" />
+      <workItem from="1585292881139" duration="4386000" />
+      <workItem from="1585538818929" duration="6695000" />
+      <workItem from="1585629823772" duration="1204000" />
+      <workItem from="1585711278869" duration="1198000" />
+      <workItem from="1585728416381" duration="138000" />
+      <workItem from="1586768255876" duration="189000" />
+      <workItem from="1586768576565" duration="10358000" />
+      <workItem from="1586842997065" duration="28005000" />
+      <workItem from="1587371820818" duration="163000" />
+      <workItem from="1587460988246" duration="1000" />
+      <workItem from="1587473257211" duration="268000" />
+      <workItem from="1587529121790" duration="79000" />
+      <workItem from="1587539917356" duration="428000" />
+      <workItem from="1588048615028" duration="39000" />
+      <workItem from="1596706933380" duration="486000" />
+      <workItem from="1596870540047" duration="2068000" />
+      <workItem from="1596893063670" duration="1313000" />
+      <workItem from="1597027178641" duration="123000" />
+      <workItem from="1597029251396" duration="6724000" />
+      <workItem from="1597213279679" duration="2395000" />
+      <workItem from="1597838286461" duration="31000" />
+      <workItem from="1597887275074" duration="49806000" />
+      <workItem from="1598335728343" duration="12523000" />
+      <workItem from="1598504513638" duration="1000" />
+      <workItem from="1598510544924" duration="1000" />
+      <workItem from="1598510548344" duration="1000" />
+      <workItem from="1598609837732" duration="2411000" />
+      <workItem from="1598673526230" duration="1000" />
+      <workItem from="1598673537937" duration="281000" />
+      <workItem from="1598852280303" duration="783000" />
+      <workItem from="1599536870740" duration="940000" />
+      <workItem from="1600849542338" duration="1972000" />
+      <workItem from="1601604265206" duration="284000" />
+      <workItem from="1601604780595" duration="842000" />
+      <workItem from="1601609843664" duration="183000" />
+      <workItem from="1602572925325" duration="2000" />
+      <workItem from="1602836440285" duration="37781000" />
+      <workItem from="1603779736143" duration="765000" />
+      <workItem from="1604569217035" duration="13279000" />
+      <workItem from="1605152627590" duration="2737000" />
+      <workItem from="1615613025242" duration="9676000" />
+      <workItem from="1615985756501" duration="601000" />
+      <workItem from="1616041477758" duration="27000" />
+      <workItem from="1616041512481" duration="4530000" />
+      <workItem from="1616125513080" duration="2262000" />
+      <workItem from="1616130512680" duration="1701000" />
+      <workItem from="1616142541048" duration="4514000" />
+      <workItem from="1616397646826" duration="137000" />
+      <workItem from="1616408225929" duration="1545000" />
+      <workItem from="1616471170800" duration="2084000" />
+      <workItem from="1616579027374" duration="1489000" />
+      <workItem from="1616603396056" duration="157000" />
+      <workItem from="1616665918091" duration="5183000" />
+      <workItem from="1617091021109" duration="287000" />
+      <workItem from="1617110109779" duration="2351000" />
+      <workItem from="1617182576715" duration="2879000" />
+      <workItem from="1639349905333" duration="1000" />
+      <workItem from="1639567595907" duration="9000" />
+      <workItem from="1641431024712" duration="1003000" />
+      <workItem from="1641557791103" duration="3250000" />
+      <workItem from="1641582337509" duration="8332000" />
+      <workItem from="1641983900683" duration="6975000" />
+      <workItem from="1641993419064" duration="2550000" />
+      <workItem from="1642003914788" duration="281000" />
+      <workItem from="1642023559281" duration="4696000" />
+      <workItem from="1642028284436" duration="3159000" />
+      <workItem from="1642066928924" duration="180000" />
+      <workItem from="1642076292836" duration="13126000" />
+      <workItem from="1642158275860" duration="5162000" />
+      <workItem from="1642187316237" duration="934000" />
+      <workItem from="1642410864922" duration="1000" />
+      <workItem from="1643209424965" duration="9000" />
+      <workItem from="1646041997635" duration="207000" />
+      <workItem from="1646237016490" duration="255000" />
+      <workItem from="1646239464460" duration="104000" />
+      <workItem from="1646239646613" duration="695000" />
+      <workItem from="1647624714733" duration="818000" />
+      <workItem from="1647625915770" duration="3687000" />
+      <workItem from="1649084284263" duration="9000" />
+      <workItem from="1655131768275" duration="7000" />
+      <workItem from="1663062569113" duration="1366000" />
+      <workItem from="1663157770174" duration="232000" />
+      <workItem from="1664806678927" duration="191000" />
+      <workItem from="1664830178022" duration="650000" />
+      <workItem from="1664832020232" duration="3067000" />
+      <workItem from="1665309429277" duration="6287000" />
+      <workItem from="1665344561783" duration="883000" />
+      <workItem from="1665347576314" duration="221000" />
+      <workItem from="1665347844590" duration="54000" />
+      <workItem from="1665348853745" duration="1240000" />
+      <workItem from="1665657414852" duration="1525000" />
+      <workItem from="1666277440789" duration="664000" />
+      <workItem from="1676973305338" duration="1520000" />
+      <workItem from="1679234003176" duration="682000" />
+      <workItem from="1679237090013" duration="1438000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/LSTM_ODE_dataloader_cp.py</url>
+          <line>351</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/LSTM_ODE_dataloader_cp.py</url>
+          <line>317</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/LSTM_ODE_dataloader_cp.py</url>
+          <line>154</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/recola_ode_multi.py</url>
+          <line>328</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/recola_ode_multi.py</url>
+          <line>326</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/recola_ode_multi.py</url>
+          <line>324</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/r16train20_a.py</url>
+          <line>230</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples/recola_odefunc25.py</url>
+          <line>270</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../wrttenpaper/Trans2021/IJCAI/IJCAIplot.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../wrttenpaper/Trans2021/IJCAI/IJCAIplot.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="list(rec.parameters())" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$LSTM_normal_nolap_egemaps__1_.coverage" NAME="LSTM_normal_nolap_egemaps (1) Coverage Results" MODIFIED="1598065030937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master_copy$odesearchnew_100v.coverage" NAME="odesearchnew_100v Coverage Results" MODIFIED="1642120497571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$odefunc_25.coverage" NAME="odefunc_25 Coverage Results" MODIFIED="1616219467563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_GMM_gpu_new.coverage" NAME="recola_GMM_gpu_new Coverage Results" MODIFIED="1587089516197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$odefuncnew_25v.coverage" NAME="odefuncnew_25v Coverage Results" MODIFIED="1616383380424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_GMM.coverage" NAME="recola_GMM Coverage Results" MODIFIED="1586858683772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$LSTM_normal.coverage" NAME="LSTM_normal Coverage Results" MODIFIED="1603218958506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_odesearch25_1.coverage" NAME="recola_odesearch25_1 Coverage Results" MODIFIED="1615779806838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master_copy$odefunc_100.coverage" NAME="odefunc_100 Coverage Results" MODIFIED="1641581115934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/CD_NODEs$Doctests_in_fromnumeric.coverage" NAME="Doctests in fromnumeric Coverage Results" MODIFIED="1647628317486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/python3.8/site-packages/numpy/core" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$r16train20_a.coverage" NAME="r16train20_a Coverage Results" MODIFIED="1603272175468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/CD_NODEs$CDNODE_gadi_pri_test.coverage" NAME="CDNODE_gadi_pri_test Coverage Results" MODIFIED="1665347753423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_lstmode.coverage" NAME="recola_lstmode Coverage Results" MODIFIED="1596894328505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_odefunc.coverage" NAME="recola_odefunc Coverage Results" MODIFIED="1596893734030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master_copy$odefuncnew_250.coverage" NAME="odefuncnew_250 Coverage Results" MODIFIED="1641557886814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_GMM_gpu.coverage" NAME="recola_GMM_gpu Coverage Results" MODIFIED="1586872447804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$fcpart_mnist.coverage" NAME="fcpart_mnist Coverage Results" MODIFIED="1604587703880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/CD_NODEs$CD_NODEs_rate.coverage" NAME="CD-NODEs-rate Coverage Results" MODIFIED="1647627567683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master_copy$latent_ode.coverage" NAME="latent_ode Coverage Results" MODIFIED="1642000892579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/CD_NODEs$LSTM_normal.coverage" NAME="LSTM_normal Coverage Results" MODIFIED="1647628390007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$LSTM_cag_boawwin.coverage" NAME="LSTM_cag_boawwin Coverage Results" MODIFIED="1598360696380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$LSTM_normal_nolap_boaw.coverage" NAME="LSTM_normal_nolap_boaw Coverage Results" MODIFIED="1598169127990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$LSTM_cag_boaw.coverage" NAME="LSTM_cag_boaw Coverage Results" MODIFIED="1598358577776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$conv_mnist.coverage" NAME="conv_mnist Coverage Results" MODIFIED="1604575987664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_odefunc25_v.coverage" NAME="recola_odefunc25_v Coverage Results" MODIFIED="1615620143601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$r32train100_a.coverage" NAME="r32train100_a Coverage Results" MODIFIED="1603269980878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_32train100_a.coverage" NAME="recola_32train100_a Coverage Results" MODIFIED="1603261657298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/CD_NODEs$CDNODE_gadi_pri.coverage" NAME="CDNODE_gadi_pri Coverage Results" MODIFIED="1665343528727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$odesearch.coverage" NAME="odesearch Coverage Results" MODIFIED="1616068733388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_odefunc1.coverage" NAME="recola_odefunc1 Coverage Results" MODIFIED="1596876061886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_train20_a.coverage" NAME="recola_train20_a Coverage Results" MODIFIED="1603255049444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$odefunc_250v.coverage" NAME="odefunc_250v Coverage Results" MODIFIED="1617182932404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master_copy$odesearchnew_100.coverage" NAME="odesearchnew_100 Coverage Results" MODIFIED="1642186653241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/CD_NODEs$CD_NODEs.coverage" NAME="CD-NODEs Coverage Results" MODIFIED="1676973547438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$fcpart2_mnist.coverage" NAME="fcpart2_mnist Coverage Results" MODIFIED="1605153703888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/CD_NODEs$CD_NODEs_initial.coverage" NAME="CD-NODEs_initial Coverage Results" MODIFIED="1664833897872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_odefunc25.coverage" NAME="recola_odefunc25 Coverage Results" MODIFIED="1615616968186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master_copy$LSTM_normal_nolap_boaw.coverage" NAME="LSTM_normal_nolap_boaw Coverage Results" MODIFIED="1646239731004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$odetanhorig_25.coverage" NAME="odetanhorig_25 Coverage Results" MODIFIED="1616472542730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_odefunc25_1.coverage" NAME="recola_odefunc25_1 Coverage Results" MODIFIED="1616042226995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_32train80_a.coverage" NAME="recola_32train80_a Coverage Results" MODIFIED="1616042285644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$odetanh_25.coverage" NAME="odetanh_25 Coverage Results" MODIFIED="1616408858315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_odelstm.coverage" NAME="recola_odelstm Coverage Results" MODIFIED="1596893951548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$odefuncnew_25.coverage" NAME="odefuncnew_25 Coverage Results" MODIFIED="1616219687089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_odesearchalltrain_amd.coverage" NAME="recola_odesearchalltrain_amd Coverage Results" MODIFIED="1603217011710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$LSTM_normal_atten.coverage" NAME="LSTM_normal_atten Coverage Results" MODIFIED="1598423567604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_odesearch.coverage" NAME="recola_odesearch Coverage Results" MODIFIED="1600850737073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/CD_NODEs$odefuncnew_100.coverage" NAME="odefuncnew_100 Coverage Results" MODIFIED="1647626311987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_GMM_tune.coverage" NAME="recola_GMM_tune Coverage Results" MODIFIED="1587090071556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/CD_NODEs$CD_NODEs_initial_true_good_no_seed.coverage" NAME="CD-NODEs_initial_true_good_no_seed Coverage Results" MODIFIED="1665310543281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/CD_NODEs$IJCAIplot.coverage" NAME="IJCAIplot Coverage Results" MODIFIED="1666277965666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../wrttenpaper/Trans2021/IJCAI" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_odesearch25.coverage" NAME="recola_odesearch25 Coverage Results" MODIFIED="1603133934048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_odefunc_a0.coverage" NAME="recola_odefunc_a0 Coverage Results" MODIFIED="1600849727747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_ode_multi.coverage" NAME="recola_ode_multi Coverage Results" MODIFIED="1596708149276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master_copy$latent_ode_recola.coverage" NAME="latent_ode_recola Coverage Results" MODIFIED="1642004144702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master_copy$meanstd.coverage" NAME="meanstd Coverage Results" MODIFIED="1642158644032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$LSTM_normal_vdelay.coverage" NAME="LSTM_normal_vdelay Coverage Results" MODIFIED="1598323250180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master_copy$cd_nodes_lotka_volterra_constrained.coverage" NAME="cd-nodes-lotka-volterra-constrained Coverage Results" MODIFIED="1642162731624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master_copy$odefuncnew_100.coverage" NAME="odefuncnew_100 Coverage Results" MODIFIED="1641984502331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$r32train20_a.coverage" NAME="r32train20_a Coverage Results" MODIFIED="1603269845263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$fc_mnist.coverage" NAME="fc_mnist Coverage Results" MODIFIED="1604574768408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$recola_odesearchalltrain.coverage" NAME="recola_odesearchalltrain Coverage Results" MODIFIED="1603187389492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master_copy$odefuncnew_100chunk.coverage" NAME="odefuncnew_100chunk Coverage Results" MODIFIED="1642038408931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$odefunc_200.coverage" NAME="odefunc_200 Coverage Results" MODIFIED="1641431150249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master_copy$odefuncnew_100av.coverage" NAME="odefuncnew_100av Coverage Results" MODIFIED="1642027827410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples" />
+    <SUITE FILE_PATH="coverage/torchdiffeq_master$LSTM_normal_nolap_egemaps.coverage" NAME="LSTM_normal_nolap_egemaps Coverage Results" MODIFIED="1597995433531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../torchdiffeq-master_orig/examples" />
+  </component>
+</project>
