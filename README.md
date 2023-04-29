@@ -36,6 +36,10 @@ python3 CD-NODEs-rate.py --nepochs 60 --lr 0.01 --lr_decay 0.95 -- PATIENCE 5 --
 
 
 
+**Note: The time interval in our experiments is 0.04, which is a variable parameter based on the database. It can be modified in torchdiffeq/dopri5.py: def advance().**
+
+
+
 ## Reference 
 
 ```
